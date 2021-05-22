@@ -1,0 +1,70 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: fantasy;
+    background: url(images/fam.jpg);
+    overflow: hidden;
+}
+
+#AVENGERS ASSEMBLE
+{
+    color: #fff;
+    font-size: 200vh; 
+}
+.nav-area{
+    float:right;
+    list-style: none;
+    margin-top: 1px;
+}
+.nav-area{
+    display: inline-block
+}
+.nav-area{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: inherit;
+    font-size: 16px;
+}
+.nav-area:hover{
+    background: #fff;
+    color: #333;
+}
+span{
+    display: inline-block;
+    font-weight: bolder;
+    animation: mover 6s linear infinite;    
+}
+@keyframes mover{
+    0%{
+        text-shadow: 0 0 30px rgba(0,0,0,0); 
+    }
+    50%{
+        text-shadow: 0 0 30px rgba(0,0,0,0.30);
+    }
+    100%{
+        text-shadow: 0 0 30px rgba(0,0,0,0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
